@@ -1,35 +1,35 @@
-modLoader = "javafml"
-loaderVersion = "[36,)"
+modLoader = "kotlinforforge"
+loaderVersion = "[1,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
-modId = "examplemod"
+modId = "toshio"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Tosh's IO mod"
+authors = "gtosh4"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Scalable and performant IO for items, fluids, energy, and more
 '''
-#logoFile = ""
 
-[[dependencies.examplemod]]
+#logoFile = ""
+[[dependencies.toshio]]
 modId = "forge"
 mandatory = true
-versionRange = "[36,)"
+versionRange = "[35,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.toshio]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.5,)"
+versionRange = "[1.16.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.toshio]]
 modId = "architectury"
 mandatory = true
-versionRange = "[1.25.36,)"
+versionRange = "[1.1.55,)"
 ordering = "AFTER"
 side = "BOTH"

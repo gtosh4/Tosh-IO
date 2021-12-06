@@ -7,6 +7,4 @@ plugins {
 
 version = findProperty("mod_version") as String
 
-architectury {
-    minecraft = findProperty("minecraft_version") as String
-}
+architectury { minecraft = findProperty("minecraft_version") as String }

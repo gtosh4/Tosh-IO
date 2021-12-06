@@ -1,30 +1,33 @@
 {
-  "schemaVersion": 1,
-  "id": "examplemod",
-  "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.examplemod.fabric.ExampleModFabric"
-    ]
-  },
-  "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.16.5",
-    "architectury": ">=1.25.36"
-  },
-  "suggests": {
-    "flamingo": "*"
-  }
+    "schemaVersion": 1,
+    "id": "toshio",
+    "version": "${version}",
+    "name": "Tosh's IO",
+    "description": "Scalable and performant IO for items, fluids, energy, and more",
+    "authors": ["Me!"],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/toshio/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            {
+                "adapter": "kotlin",
+                "value": "toshio.fabric.ToshIOFabric"
+            }
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.7.4",
+        "fabric": "*",
+        "fabric-language-kotlin": ">=1.6.2+kotlin.1.5.20",
+        "minecraft": ">=1.16.5",
+        "architectury": ">=1.25.36"
+    },
+    "suggests": {
+        "flamingo": "*"
+    }
 }

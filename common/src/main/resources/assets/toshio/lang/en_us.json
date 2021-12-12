@@ -1,0 +1,15 @@
+{
+    "itemGroup.toshio.toshio_tab": "Tosh IO",
+    "item.toshio.cable": "Cable",
+    "block.toshio.cable": "Cable",
+    "item.toshio.connector": "Connector",
+    "block.toshio.connector": "Connector",
+    "item.toshio.part.inventory": "Inventory Part",
+
+    "gui.toshio.shortdir.up": "U",
+    "gui.toshio.shortdir.down": "D",
+    "gui.toshio.shortdir.north": "N",
+    "gui.toshio.shortdir.south": "S",
+    "gui.toshio.shortdir.east": "E",
+    "gui.toshio.shortdir.west": "W"
+}

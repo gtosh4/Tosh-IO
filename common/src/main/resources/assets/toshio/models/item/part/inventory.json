@@ -1,0 +1,43 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "texture": "toshio:part/inventory"
+  },
+  "elements": [
+    {
+      "name": "one",
+      "from": [ 5.0, 5.0, 12.0 ],
+      "to": [ 11.0, 11.0, 16.0 ],
+      "faces": {
+        "north": { "texture": "#texture", "uv": [ 4.0, 4.0, 10.0, 10.0 ] },
+        "east": { "texture": "#texture", "uv": [ 0.0, 4.0, 4.0, 10.0 ] },
+        "south": { "texture": "#texture", "uv": [ 4.0, 4.0, 10.0, 10.0 ] },
+        "west": { "texture": "#texture", "uv": [ 10.0, 4.0, 14.0, 10.0 ] },
+        "up": { "texture": "#texture", "uv": [ 4.0, 10.0, 10.0, 14.0 ] },
+        "down": { "texture": "#texture", "uv": [ 4.0, 0.0, 10.0, 4.0 ] }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 10, -45, 170 ],
+      "translation": [ 0, 1.5, -2.75 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    },
+    "gui": {
+      "rotation": [ 30, 45, 0 ],
+      "translation": [ -4, 2, 0],
+      "scale":[ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 45, 0 ],
+      "translation": [ 0, 2, 0 ],
+      "scale": [ 0.40, 0.40, 0.40 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 45, 0 ],
+      "translation": [ 0, 2, 0 ],
+      "scale": [ 0.40, 0.40, 0.40 ]
+    }
+  }
+}
